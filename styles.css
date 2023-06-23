@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@500;800&family=Fraunces:wght@700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color:#000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a{
+    color:#262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width:90%;
+    max-width: 1300px;
+    margin:auto
+}
+img {
+max-width:100%;
+}
+
+header{
+    margin-top: 3rem;
+}
+.heading-content{
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+
+.heading{
+    width: 50%;
+    font-size: 3rem;
+
+}
+
+.heading-content-text{
+    width: 40%;
+}
+
+.who-we-are{
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+.we-are{
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+    margin-top:5rem;
+}
+.grid2, .grid5{
+    margin-top:10rem;
+}
+
+.crew{
+   writing-mode: vertical-lr;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.crew-name{
+    
+    font-weight: 700;
+  padding-top:1rem;
+  margin-left:-1.5rem;
+  
+}
+
+@media(max-width:860px){
+   .heading-content{
+    display: block;
+   
+   }
+   .heading-content-text{
+    width: 90%;
+   }
+   .grid{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .grid2{
+    margin-top:5rem;}
+
+   .grid4{
+    padding-top:5rem;
+   }
+   .grid6{
+    padding-top:15rem;
+   }
+   
+ .content-text-left{
+    margin-top: 3rem;
+ }
+}
