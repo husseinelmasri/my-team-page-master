@@ -101,13 +101,16 @@ header{
     grid-template-columns: repeat(2,1fr);
    }
    .grid2{
-    margin-top:5rem;}
+    margin-top:10rem;}
 
    .grid4{
-    padding-top:5rem;
+    padding-top:10rem;
+   }
+   .grid5{
+    margin:0
    }
    .grid6{
-    padding-top:15rem;
+   margin-top:10rem;
    }
    
  .content-text-left{
